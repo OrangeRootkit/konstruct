@@ -1,0 +1,113 @@
+.header__container {
+    max-width:  1440px;
+    background-image: url("../images/main1x.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 41px 0 71px ;
+    
+}
+
+.header__logo {
+    display: block;
+    width: 102px;
+    height: 23px;
+    margin: 0 auto;
+}
+
+
+.header__title {
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5.71px ;
+    margin: 305px 0 0;
+
+}
+
+.header__second_title {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 21px 0 0;
+}
+
+.header__text {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14.98px;
+    margin: 221px 0 0;
+    letter-spacing: 3.7px ;
+}
+
+.header__line {
+    max-width: 1440px;
+    border-bottom: 1px solid #E6E6E6;
+    background-color: #fff ;
+    margin: 0 auto;
+}
+.header__nav {
+    max-width: 940px;
+    padding: 24px 0 23px;
+    display: flex;
+}
+
+.header__navigation {
+    width: 50%;
+    align-items: center;
+}
+
+.header__navigation__logo {
+    width: 80px;
+    margin: 3px 48% 0 0;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1.09px;
+}
+
+.header__link {
+    font-size: 12px;
+    font-weight: 700;
+    color: #48555B;
+  }
+
+.header__link:hover {
+    color: #00A4E5;
+}
+
+@media (max-width:995px){
+    .header__line {
+        padding: 0 20px;
+    }
+
+    .header__navigation {
+        width: 90%;
+        align-items: center;
+    }
+
+.header__navigation__logo {
+    width: 80px;
+    margin: 3px 20% 0 0;
+    justify-content: center;
+}
+
+
+.header__nav {
+    max-width: 100%;
+}
+
+}

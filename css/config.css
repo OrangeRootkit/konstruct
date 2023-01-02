@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 23px;
+    background-color: #3A4F63;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+} 
+
+.section__container {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media (max-width:995px){
+    .section__container {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+}

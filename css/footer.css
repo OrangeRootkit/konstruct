@@ -1,0 +1,162 @@
+.footer__container {
+    padding-top: 115px;
+}
+
+.footer__info {
+    padding: 120px 0 231px;
+    background-image: -webkit-image-set(url("../images/city1x.jpg") 1x, url("../images/city2x.jpg") 2x);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+
+
+.footer__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    /* width: 350px; */
+    line-height: 36px;
+    max-width: 320px;
+    margin: 0 auto;
+    color: #48555B;
+    margin-bottom: 35px;
+}
+
+.footer__touch {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer__touchlink {
+    margin: 0 auto;
+    color: white;
+}
+
+.footer__signup {
+    padding: 30px  26% 30px 26%;
+    background-color: #171819 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__titlesignup {
+    color: #fff ;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.85px;
+    white-space: nowrap;
+}
+
+.footer__emailwrapper {
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__email {
+    width: 248px;
+    height: 40px;
+    align-items: center;
+    display: block;
+    font-size: 14px;
+    border: 2px solid white;
+
+}
+
+.footer__email::placeholder {
+    color: #48555B;
+    size: 14px;
+    padding-left: 16px;
+    font-family: "Open Sans";
+}
+
+.footer__submit {
+    width: 148px;
+    height: 40px;
+    background-color: #00A4E5;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #00A4E5;
+
+}
+
+.footer__capture {
+    padding: 22px 0 23px;
+    background-color: #171819 ;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.85px;
+}
+
+@media (max-width:995px) {
+    .footer__signup {
+        padding: 30px  26% 30px 26%;
+        background-color: #171819 ;
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+
+
+    }
+    
+    .footer__titlesignup {
+        color: #fff ;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0.85px;
+        white-space: nowrap;
+        margin: 0 auto;
+    }
+    
+    .footer__emailwrapper {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .footer__email {
+        width: 248px;
+        height: 40px;
+        align-items: center;
+        display: block;
+        font-size: 14px;
+        border: 2px solid white;
+    
+    }
+    
+    .footer__email::placeholder {
+        color: #48555B;
+        size: 14px;
+        padding-left: 16px;
+        font-family: "Open Sans";
+    }
+    
+    .footer__submit {
+        width: 148px;
+        height: 40px;
+        background-color: #00A4E5;
+        font-weight: 700;
+        font-size: 13px;
+        text-align: center;
+        align-items: center;
+        color: white;
+        border: 2px solid #00A4E5;
+}
+}
