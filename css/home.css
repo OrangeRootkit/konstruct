@@ -75,13 +75,11 @@
 .home__images {
     display: block;
     height: 100%;
-
 }
 
 
 .item__header {
     display: block;
-    color: black;
     font-weight: 700;
     text-transform: uppercase;
     position: absolute;
@@ -155,16 +153,74 @@
 
     .item__header {
         display: block;
-        color: black;
-        font-weight: 700;
-        text-transform: uppercase;
-        position: absolute;
-        font-size: 24px;
-        line-height: 29px;
         left: 10px;
         top: 10px;
         width: 40px;
-        color: white;
 
 }
+}
+
+@media (max-width:575px){
+    .home__items {
+        width: 100%;
+     }
+    
+    .home__itemswrapper {
+        position: relative;
+        width: 100%;
+        
+    }
+    
+    .home__itemswrapper:first-child {
+        margin:0 5px 0;
+    }
+    
+    .home__itemswrapper:nth-child(2) {
+        margin:0 5px 0 5px;
+    }
+    
+    .item__header {
+        display: block;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: absolute;
+        font-size: 20px;
+        line-height: 29px;
+        left: 20px;
+        top: 10px;
+        width: 35px;
+        color: white;
+    
+    }   
+}
+
+@media (max-width:480px){
+    .home__items {
+        gap: 10px;
+     }
+
+    .item__header {
+        font-size: 16px;
+        line-height: 20px;
+        left: 20px;
+        top: 10px;
+        width: 25px;
+    
+    }   
+}
+
+@media (max-width:400px){
+    
+    .home__items {
+        gap: 10px;
+     }
+    
+    .item__header {
+        font-size: 16px;
+        line-height: 20px;
+        left: 6px;
+        top: 10px;
+        width: 25px;
+    
+    }   
 }
