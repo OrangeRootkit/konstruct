@@ -139,13 +139,15 @@
   }
 
   .footer__submit {
-    display: flex;
+    display: block;
+    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
   .footer__email {
-    font-size: 12px;
+   
+    width: 60%;
   }
 
   .footer__email::placeholder {
@@ -153,7 +155,7 @@
   }
 
   .footer__submit {
-    font-size: 12px;
+      width: 30%;
   }
 
   .footer__capture {
@@ -179,14 +181,14 @@
   }
 
   .footer__email {
-    width: 50%;
+    width: 60%;
     display: block;
-    font-size: 11px;
+   
   }
 
   .footer__submit {
-    width: 20%;
-    font-size: 11px;
+    width: 30%;
+    
   }
 
   .footer__capture {
