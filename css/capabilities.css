@@ -1,3 +1,7 @@
+.capabilities__container {
+  padding: 0 0 115px;
+}
+
 .capabilities__info {
   display: flex;
   align-items: center;
@@ -41,6 +45,14 @@
   align-items: center;
   font-weight: 700;
   background-color: #00a4e5;
+}
+
+.capabilities__button:hover {
+  opacity: 0.9;
+}
+
+.capabilities__button:hover {
+  opacity: 0.8;
 }
 
 .capabilities__button a {

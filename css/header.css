@@ -37,6 +37,7 @@
 }
 
 .header__text {
+  display: block;
   color: #fff;
   font-weight: 700;
   text-align: center;
@@ -44,6 +45,11 @@
   line-height: 14.98px;
   margin: 221px 0 0;
   letter-spacing: 3.7px;
+}
+
+.header__text:hover {
+  font-size: 1.05em;
+  transition: 1s;
 }
 
 .burger {
