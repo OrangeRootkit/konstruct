@@ -76,14 +76,12 @@
   display: block;
   font-size: 14px;
   border: 2px solid white;
-  padding-left: 15px;
+  padding-left: 16px;
 }
 
 .footer__email::placeholder {
   color: #48555b;
   size: 14px;
-  padding-left: 16px;
-  font-family: "Open Sans";
 }
 
 .footer__submit {
@@ -116,6 +114,9 @@
 }
 
 @media (max-width: 960px) {
+  .footer__info {
+    padding: 0 0 231px;
+  }
   .footer__signup {
     padding: 0;
     display: block;
@@ -146,12 +147,7 @@
 
 @media (max-width: 480px) {
   .footer__email {
-   
     width: 60%;
-  }
-
-  .footer__email::placeholder {
-    padding-left: 5px;
   }
 
   .footer__submit {

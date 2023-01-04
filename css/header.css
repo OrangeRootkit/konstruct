@@ -81,7 +81,7 @@
   flex-direction: column;
   background-color: #3a4f63;
   opacity: 0.9;
-  padding: 35% 0 0 0;
+  padding: 30% 0 0 0;
   text-align: center;
   display: flex;
   z-index: 100;
@@ -167,9 +167,10 @@
   .burger {
     display: block;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 26px;
-    top: 50px;
+    top: 43px;
+    z-index: 1;
   }
 
   .cross {
@@ -177,7 +178,7 @@
     cursor: pointer;
     position: absolute;
     right: 30px;
-    top: 49px;
+    top: 43px;
   }
 
   .header__list {
