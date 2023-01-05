@@ -52,7 +52,7 @@
   transition: 1s;
 }
 
-.burger {
+/* .burger {
   display: none;
 }
 
@@ -69,7 +69,7 @@
   display: block;
   position: fixed;
   z-index: 100;
-}
+} */
 
 .burger__list {
   position: fixed;
@@ -84,14 +84,14 @@
   padding: 30% 0 0 0;
   text-align: center;
   display: flex;
-  z-index: 100;
+  z-index: 1;
 }
 
-.burger__list.active {
+/* .burger__list.active {
   top: 0;
   left: 0;
   z-index: 100;
-}
+} */
 
 .burger__link {
   font-weight: 700;
@@ -142,6 +142,95 @@
   color: #00a4e5;
 }
 
+.nav__span {
+  width: 40px;
+  height: 5px;
+  display: block;
+  position: fixed;
+  top: 40px;
+  right: 25px;
+  background-color: #00a4e5;
+  display: none;
+  z-index: 1;
+}
+
+.nav__span1 {
+  width: 40px;
+  height: 5px;
+  display: block;
+  position: fixed;
+  top: 50px;
+  right: 25px;
+  background-color: #00a4e5;
+  display: none;
+  z-index: 1;
+}
+
+.nav__span2 {
+  width: 40px;
+  height: 5px;
+  display: block;
+  position: fixed;
+  top: 60px;
+  right: 25px;
+  background-color: #00a4e5;
+  display: none;
+  z-index: 1;
+}
+
+
+
+.nav__check {
+  opacity: 0;
+  top: 30px;
+  right: 25px;
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  display: none;
+}
+
+.nav__list {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.nav__check:checked ~ .burger__list {
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+
+.nav__check:checked ~ .nav__span {
+  top: 50px;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  z-index: 2;
+
+}
+
+.nav__check:checked ~ .nav__span1 {
+  transform: rotate(45deg);
+  transition: 1s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.nav__check:checked ~ .nav__span2 {
+  top:50px;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  z-index: 2;
+  
+}
+
+
+
 @media (max-width: 960px) {
   .header__line {
     padding: 0 20px;
@@ -161,25 +250,27 @@
   .header__nav {
     max-width: 100%;
   }
+
+  
 }
 
 @media (max-width: 575px) {
-  .burger {
+  /* .burger {
     display: block;
     cursor: pointer;
     position: fixed;
     right: 26px;
     top: 43px;
     z-index: 1;
-  }
+  } */
 
-  .cross {
+  /* .cross {
     display: none;
     cursor: pointer;
     position: absolute;
     right: 30px;
     top: 43px;
-  }
+  } */
 
   .header__list {
     display: none;
@@ -188,6 +279,11 @@
   .header__line {
     display: none;
   }
+
+  .nav__span,.nav__span1,.nav__span2, .nav__check {
+     display: block;
+  }
+
 }
 
 @media (max-width: 480px) {
