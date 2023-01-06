@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     line-height: 23px;
     background-color: #3A4F63;

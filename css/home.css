@@ -32,7 +32,7 @@
   color: #48555b;
 }
 
-.home__firstparagraph {
+.subtitle {
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 0.19px;
@@ -44,7 +44,7 @@
   color: #16ace8;
 }
 
-.home__secondparagraph {
+.maintext {
   margin-top: 30px;
   max-width: 406px;
   font-size: 13px;
@@ -103,7 +103,7 @@
     margin: 0 auto;
   }
 
-  .home__firstparagraph {
+  .subtitle {
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -113,7 +113,7 @@
     color: #16ace8;
   }
 
-  .home__secondparagraph {
+  .maintext {
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -138,11 +138,11 @@
   }
 
   .home__itemswrapper:first-child {
-    margin: 0 0px 0;
+    margin: 0;
   }
 
   .home__itemswrapper:nth-child(2) {
-    margin: 0 0px 0 0px;
+    margin: 0;
   }
 
   .item__header {
